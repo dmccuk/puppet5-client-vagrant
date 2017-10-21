@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "puppet-agent1.example.com": {
+      ":ip": "192.168.200.10",
+      "ports": [
+{
+          ":host": 80,
+          ":guest": 80,
+          ":id": "http"
+}
+],
+      ":memory": 512,
+      ":bootstrap": "bootstrap-node.sh"
+    },
+    "puppet-agent2.example.com": {
+      ":ip": "192.168.200.20",
+      "ports": [
+{
+          ":host": 81,
+          ":guest": 80,
+          ":id": "http"
+}
+],
+      ":memory": 512,
+      ":bootstrap": "bootstrap-node.sh"
+    },
+    "puppet-agent3.example.com": {
+      ":ip": "192.168.200.30",
+      "ports": [
+{
+          ":host": 82,
+          ":guest": 80,
+          ":id": "http"
+}
+],
+      ":memory": 512,
+      ":bootstrap": "bootstrap-node.sh"
+    }
+
+  }
+}

@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"type":"virtualbox","guestpath":"/vagrant","hostpath":"/opt/puppet5/puppet5-client-vagrant","disabled":false,"__vagrantfile":true}}}
